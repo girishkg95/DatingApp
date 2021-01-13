@@ -23,6 +23,7 @@ namespace API.Controllers
         {
             var users = context.Users.ToList();
             return users;
+            
             //return context.Users.ToList();
         }
 
@@ -31,6 +32,7 @@ namespace API.Controllers
         {
             var user = context.Users.Find(id);
             return user;
+
             //return context.Users.Find(id)
         } */
 
